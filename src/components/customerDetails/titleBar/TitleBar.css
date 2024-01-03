@@ -1,0 +1,23 @@
+.titlebar{
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: #FFBD33;
+    width: 100%;
+    height: 60px;
+    border-bottom: 5px solid rgb(43, 58, 10);
+}
+
+.title{
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 50px;
+    font-family: sans-serif;
+}
+
+.qrcode{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 5%;
+}

@@ -1,0 +1,71 @@
+.card{
+    height: 600px;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(245, 243, 243);
+    margin-top: 50px;
+    display: flex;
+}
+
+.wrapper{
+    height: 60px;
+    width: 330px;
+    background-color: #FFBD33;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    justify-content: space-evenly;
+}
+
+.title-warranty{
+    font-size: 28px;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+
+.logo-warranty{
+    font-size: 36px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.text-area{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.description{
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.logo-name{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.name{
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 35px;
+    font-family: sans-serif;
+}
+
+.name-slogan{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.location{
+    font-size: 24px;
+    /* font-weight: 550; */
+    font-family: sans-serif;
+}
